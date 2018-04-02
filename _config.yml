@@ -1,1 +1,21 @@
+title : Legal.txt Project
+author :
+  name : Legal.txt Project
+  email : hello@legaltxt.org
+  github : legaltxt
+
 theme: jekyll-theme-tactile
+
+gems:
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+  - jekyll-toc
+  
+include: [".well-known"]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+url : https://legaltxt.org
